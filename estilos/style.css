@@ -34,11 +34,18 @@ section#login {
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.486);
 }
 
 section#login div#imagem {
-    background: #5f2c82 url(../imagens/tela01.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/tela02.jpg) no-repeat;
     background-size: cover;
+    background-position: top right;
     height: 200px;
+}
+
+section#login div#formulario {
+    display: block;
+    padding: 10px;
 }
 
