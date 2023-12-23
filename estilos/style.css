@@ -38,9 +38,8 @@ section#login {
 }
 
 section#login div#imagem {
-    background: #5f2c82 url(../imagens/tela02.jpg) no-repeat;
+    background: #5f2c82 url(../imagens/tela01.jpg) no-repeat;
     background-size: cover;
-    background-position: top right;
     height: 200px;
 }
 
