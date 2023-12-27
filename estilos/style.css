@@ -88,7 +88,7 @@ form div.campo input {
     border: 2px solid #0e524f;
     border-radius: 8px;
     transform: translate(42px, -42px);
-    /* outline: ; se quiser tirar a borda da caixa */
+    /* outline: none; se quiser tirar a borda da caixa */
 }
 
 form div.campo input:focus-within {
@@ -116,7 +116,7 @@ form div.campo input[type=submit]:hover {
 
 form a.botao {
     display: block;
-    background-color: #49a09d;
+    background-color: #0e524f;
     color: white;
     font-size: 1em;
     width: 100%;
