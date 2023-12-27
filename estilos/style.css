@@ -83,11 +83,16 @@ form div.campo label span {
 form div.campo input {
     background-color: #49a09d;
     font-size: 1em;
-    width: 80.5%;
+    width: calc(100% - 42px);
     height: 100%;
-    border: none;
+    border: 2px solid #0e524f;
     border-radius: 8px;
-    transform: translateY(-10px);
+    transform: translate(42px, -42px);
+    /* outline: ; se quiser tirar a borda da caixa */
+}
+
+form div.campo input:focus-within {
+    background-color: white;
 }
 
 form div.campo input[type=submit] {
@@ -101,6 +106,7 @@ form div.campo input[type=submit] {
     border-radius: 8px;
     margin-top: 5px;
     text-align: center;
+    transform: translate(0, -42px);
 }
 
 form div.campo input[type=submit]:hover {
@@ -120,7 +126,7 @@ form a.botao {
     border-radius: 8px;
     text-align: center;
     text-decoration: none;
-    transform: translateY(-5px);
+    transform: translateY(-37px);
 }
 
 form a.botao:hover {
