@@ -32,6 +32,7 @@ section#login {
     background-color: white;
     width: 250px;
     height: 535px;
+    margin: auto;
     border: 3px solid rgba(0, 0, 0, 0.164);
     border-radius: 20px;
     overflow: hidden;
