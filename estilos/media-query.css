@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px) and (max-width: 991px) {
+@media screen and (min-width: 768px) {
     
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -8,7 +8,7 @@
     
     section#login {
         width: 70vw;
-        height: 50vh;
+        height: 50.5vh;
     }
 
     section#login div#imagem {
@@ -34,7 +34,7 @@
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) {
 
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
@@ -68,6 +68,19 @@
     }
 }
 
+@media screen and (min-width: 1080px) {
+
+    body {
+        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+    }
+
+    section#login {
+        width: 60vw;
+        height: 52vh;
+    }
+
+}
+
 @media screen and (min-width: 1200px) {
     
     body {
@@ -75,7 +88,7 @@
     }
     
     section#login {
-        width: 70vw;
+        width: 60vw;
         height: 52vh;
     }
 
